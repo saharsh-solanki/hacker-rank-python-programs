@@ -34,5 +34,16 @@ if __name__ == '__main__':
     ans_names.sort(key=lambda item: item[0])
     print("\n".join(i for i in ans_names))
     
+```
+
+
+### Transpose and Flatten
+### We can generate the transposition of an array using the tool .
+```
+import numpy
+n, m = map(int, input().split())
+array = numpy.array([input().strip().split() for _ in range(n)], int)
+print (array.transpose())
+print (array.flatten())
 
 ```
