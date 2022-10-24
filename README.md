@@ -218,53 +218,103 @@ print(max(l))
 
 ```
 
+### Print Function
 ###
+
+```
+n = int(input())
+t=""
+for i in range(1,n+1):
+
+    t=t+str(i)
+    
+print(t)
+
+
+```
+
+###Write a function
+
+
+###
+
+```
+def is_leap(year):
+    if (year %400)==0:
+        year="leap"
+    elif (year %100)==0:
+         year="not leap"
+    elif (year %4)==0:
+         year="leap"
+    else:
+        pass
+    if year=="leap":
+        return True
+    else:
+        return False
+        
+
+```
+
+###Loops
+###
+
+```
+n = int(input())
+for i in range(n):
+    print(i*i)
+
+```
+
+###Python: Division
+###
+
+```
+a = int(input())
+b = int(input())
+print(a//b)
+print(a/b)
+
+```
+
+###Arithmetic Operators
+
+
+###
+
+```
+a = int(input())
+b = int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+
+```
+
+
+### Python If-Else
 ###
 
 ```
 
-```
-
-###
-###
-
-```
-
-```
-
-###
-###
+n=int(input())
+if (n%2)!=0:
+    print('Weird')
+elif n==2 or n==4:
+    print('Not Weird')
+elif n>=6 and n<=20:
+    print('Weird')
+else:
+    print('Not Weird')
 
 ```
 
-```
-
-###
+### Say "Hello, World!" With Python
 ###
 
 ```
-
-```
-
-###
-###
-
-```
-
-```
-
-
-###
-###
-
-```
-
-```
-
-###
-###
-
-```
+if __name__ == '__main__':
+    print "Hello, World!"
 
 ```
 
