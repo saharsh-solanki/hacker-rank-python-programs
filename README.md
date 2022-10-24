@@ -1,5 +1,5 @@
 # hacker-rank-python-programs
-# Search With Starting of the Question ( some question does not  have heading and a unique name search themm by the start) 
+# Search With Unique name of the question and then search with Starting of the Question ( some question does not  have heading and a unique name search them by the start) 
 
 
 
